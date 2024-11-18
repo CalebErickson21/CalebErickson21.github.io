@@ -1,0 +1,52 @@
+// sass --watch input.scss output.css
+$background-dark: #212529;
+$background-blue: #99CCFF;
+$nav-height: 7dvh;
+$name-nav-width: 18dvw;
+
+.section-dark {
+    background-image: linear-gradient($background-dark, $background-blue);
+    color: white;
+}
+
+.section-light {
+    background-image: linear-gradient($background-blue, $background-dark);
+    color: black;
+}
+
+.navbar {
+    background-color: $background-dark;
+}
+
+.nav-link {
+    color: white;
+    &:hover {
+        color: $background-blue;
+        font-weight: bold;
+    }
+}
+
+.section {
+    height: 100dvh - $nav-height;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100dvh - $nav-height - 15dvh;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
+#nameNav {
+    color: white;
+}
+
+#nameNavSpacer {
+    color: transparent;
+    max-height: 1px;
+}
+
+div .row {
+    height: 100%;
+    max-width: 100%;
+}
