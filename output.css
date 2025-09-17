@@ -1,3 +1,13 @@
+#newPortfolioDiv {
+  background-color: #99CCFF;
+  color: white;
+}
+#newPortfolioDiv h1, #newPortfolioDiv a {
+  font-weight: bold;
+  font-size: 1.5625rem;
+  color: #212529;
+}
+
 .btn-primary {
   background-color: #99CCFF;
   border: none;

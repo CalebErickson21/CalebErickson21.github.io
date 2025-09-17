@@ -4,6 +4,17 @@ $background-blue: #99CCFF;
 $nav-height: 7dvh;
 $paragraph-size: 1.25rem;
 
+#newPortfolioDiv {
+    background-color: $background-blue;
+    color: white;
+
+    h1, a {
+        font-weight: bold;
+        font-size: $paragraph-size * 1.25;
+        color: $background-dark;
+    }
+}
+
 .btn-primary {
     background-color: $background-blue;
     border: none;
